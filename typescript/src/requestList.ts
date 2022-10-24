@@ -33,6 +33,11 @@ export const REQUESTS: RawCoinInfo[] = [
       "module_name": "staked_coin",
       "struct_name": "StakedAptos"
     },
+    
+    "extensions": {
+      "data": []
+    }
+  }
     "extensions": {
       "data": []
     }
@@ -144,5 +149,23 @@ export const REQUESTS: RawCoinInfo[] = [
     "extensions": {
       "data": []
     }
-  }
+  },
+    {
+    "name": "Aptos Frens",
+    "symbol": "AFREN",
+    "official_symbol": "AFREN",
+    "coingecko_id": "",
+    "decimals": 6,
+    "logo_url": "https://github.com/0xfrens/AptosFrens-Locker/blob/main/logo.svg",
+    "project_url": "https://aptosfrens.xyz/",
+    "token_type": {
+      "type": "0x523fdc336019440410e087aae6332ca1ce8ed927adb2c00f0c488bb71ab5b918::aptos_frens::AptosFrens",
+      "account_address": "0x523fdc336019440410e087aae6332ca1ce8ed927adb2c00f0c488bb71ab5b918",
+      "module_name": "aptos_frens",
+      "struct_name": "AptosFrens"
+    },
+      "extensions": {
+      "data": []
+    }
+  },
 ];
